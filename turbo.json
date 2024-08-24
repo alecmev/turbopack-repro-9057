@@ -1,0 +1,13 @@
+{
+  "$schema": "https://turbo.build/schema.v2.json",
+  "ui": "tui",
+  "tasks": {
+    "//#foo": {
+      "cache": false
+    },
+    "//#bar": {
+      "dependsOn": ["foo"],
+      "cache": false
+    }
+  }
+}
